@@ -1,0 +1,20 @@
+.banner-img{
+    width: 100%;
+    height: 450px;
+}
+
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 352px;
+}
+
+.banner h1{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+}
