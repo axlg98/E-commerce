@@ -102,4 +102,19 @@ header{
 
 .btn-log{
     float: right;
+    width: 100%;
+    height: 50px;
+    margin: 0 30px;
+    transition: 1000ms;
+    color:  #2A7AE4;
+    border: 2px solid #2A7AE4;
+    background-color: #ffffff;
+}
+
+.btn-log:hover{
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transform: scale(1.2);
+    cursor: pointer;
 }
