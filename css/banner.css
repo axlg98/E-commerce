@@ -44,12 +44,14 @@
     border: 2px solid cyan;
     margin: 0 30px;
     transition: 1000ms;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .console-banner:hover{
     background-color: cyan;
     border: 2px solid blue;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
     font-size: 18px;
 }

@@ -109,12 +109,14 @@ header{
     color:  #2A7AE4;
     border: 2px solid #2A7AE4;
     background-color: #ffffff;
+    font-weight: bold;
 }
 
 .btn-log:hover{
     background-color: #2A7AE4;
     color: #ffffff;
     border: 2px solid #ffffff;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
+    font-size: 18px;
 }
