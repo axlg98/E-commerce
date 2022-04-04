@@ -113,7 +113,7 @@ header{
     font-weight: bold;
 }
 
-.btn-log:hover{
+.btn-log:hover, .console-banner:hover{
     background-color: #2A7AE4;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -121,3 +121,4 @@ header{
     cursor: pointer;
     font-size: 18px;
 }
+
