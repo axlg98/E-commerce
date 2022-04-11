@@ -3,12 +3,19 @@
 }
 
 .categoria{
+    width: 90%;
+    float: left;
     overflow: hidden;
 }
 
-.btn__items{
-    width: 2%;
-    float: left;
+.btn__categoria{
+    float:left;
+    margin-top:100px;
+    color:white;
+    background-color: black;
+    border: 0;
+    padding: 15px;
+    margin-left: 20px;
 }
 
 .div__item{
@@ -65,7 +72,25 @@
     text-align: center;
 }
 
+.gallery__container{
+    width: 100%;
+    display: inline-block;
+}
+
+.container{
+    width: 90%;
+    height:300px;
+    margin: 0 auto;
+}
+
+.capa__contenedor{
+    display: inline-block;
+}
+
 @media (max-width: 700px){
+    .capa__contenedor{
+        display: flex;
+    }
     .categoria__img{
         width: auto;
     }
