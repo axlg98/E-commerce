@@ -1,0 +1,15 @@
+.descripcion{
+    padding: 32px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.rodapie__descripcion{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px){
+    .rodapie__descripcion{
+        font-size: 15px;
+    }
+}

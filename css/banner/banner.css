@@ -1,0 +1,78 @@
+.banner-img{
+    height: 450px;
+}
+
+.banner{
+    background-image: url(https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 20px;
+}
+
+.banner__titulo{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    width: 100%;
+    height: 80px;
+    text-decoration: underline;
+}
+
+.parrafo-banner{
+    position: static;
+    height: 26px;
+    left: 20px;
+    top: 77px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.console-banner{
+    background-color: blue;
+    width: 10%;
+    height: 50px;
+    border: 2px solid cyan;
+    margin: 0 30px;
+    transition: 1000ms;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.console-banner:hover{
+    background-color: cyan;
+    border: 2px solid blue;
+    color: black;
+}
+
+@media (max-width: 700px){
+    .banner__titulo{
+        font-size: 32px;
+    }
+
+    .parrafo-banner{
+        font-size: 15px;
+        margin: 0 10px;
+        white-space: initial;
+        height: auto;
+        width: 200px;
+    }
+    
+    .console-banner{
+        width: 30%;
+    }
+    .console-banner:active{
+        background-color: teal;
+        transition: 500ms;
+    }
+    .console-banner{
+        color: white;
+    }
+}

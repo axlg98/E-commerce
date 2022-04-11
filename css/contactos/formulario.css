@@ -1,0 +1,120 @@
+.form{
+    width: 45%;
+    padding: 10px 0;
+    margin: 50px 0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form__titulo{
+    font-weight: 700px;
+    font-size: 15px;
+    margin-top: 0.400rem;
+    color: #464646;
+    width: 100%
+}
+
+.form__nombre{
+    background: #ffffff;
+    color: #464646;
+    border-style: none;
+    margin-top: 5px;
+    border-radius: 4px;
+    height: 45px;
+    padding: 0 8px;
+    position: relative;
+    width: 100%;
+}
+
+.form__nombre input{
+    border: none;
+    outline: 0;
+    margin-top: 2px;
+    padding: 1rem 0 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+label {
+    font-size: 0.8rem;
+    position: absolute;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+
+.form__mensaje{
+    background: #ffffff;
+    color: #464646;
+    border-style: none;
+    margin-top: 7px;
+    border-radius: 4px;
+    height: 45px;
+    padding: 0 8px;
+    position: relative;
+    width: 100%;
+}
+
+.form__mensaje input{
+    border: none;
+    outline: 0;
+    margin-top: 2px;
+    padding: 1rem 0 0.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+    resize: vertical;
+}
+
+.btn__form{
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: 2px solid teal;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    width: 162px;
+    margin-top: 5px;
+    margin: 10px 0;
+    
+}
+
+.btn__form:hover{
+    background-color: teal;
+    border: 2px solid #2A7AE4;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn__form:active{
+    background-color: green;
+    border: 2px solid rgb(38, 206, 38);
+}
+
+@media screen and (max-width: 700px){
+    .form{
+        width: 92%;
+        display: block;
+    }
+    .btn__form{
+        margin-top: 20px;
+    }
+    .form__nombre{
+        height: 80px;
+    }
+    .form__nombre input{
+        height: 50px;
+    }
+    .form__mensaje{
+        height: 80px;
+    }
+    .form__mensaje input{
+        height: 50px;
+    }
+    .formulario{
+        justify-content: center;
+    }
+}
