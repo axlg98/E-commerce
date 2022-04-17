@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/contactos/contacts.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/contactos/formulario.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/rodapie/rodapie.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/login/login.css"/>
+    <title>Inicio de Sesión</title>
+</head>
+    <body>
+        <header class="headerPrincipal">
+            <div class="logo">
+                <img src="img/ecommerce.png" class="logo-header">
+            </div>
+            <div class="box">
+                <div class="section-search">
+                    <input type="search" placeholder="Search..." class="buscador-art">
+                    <a href="" class="icon"> <i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            <div class="login">
+               <a href=""><button class="btn-log">Login</button></a>
+            </div>
+            </header>
+        <main>
+            <section class="sectionLogin__principal">
+                <form class="sectionLogin__form">
+                    <span class="sectionLogin__titulo"> Iniciar sesión</span>
+                <div class="sectionLogin__nombre">
+                        <input type="text" placeholder="Nombre:" required>
+                    </div>
+                    <div class="sectionLogin__contrasenha">
+                        <input type="password" placeholder="Contraseña:" required>
+                    </div>
+                    <button type="submit" class="sectionLogin_btn"> Login</button>
+                </form>
+            </section>
+        </main>
+        <section class="contacts">
+            <div class="contacts__contenedor">
+                <div class="img__contacts">
+                    <img src="./img/footer-img/footer-Logo.png" alt="Logo de AluraGeek" class="contacts__img">
+                </div>
+                <div class="rodapie__contacts">
+                    <ul class="lista__contacts">
+                        <li class="item__contacts"> <p>quienes somos</p> </li>
+                        <li class="item__contacts"> <p>Politica de privacidad</p> </li>
+                        <li class="item__contacts"> <p>Programa de fidelidad</p> </li>
+                        <li class="item__contacts"> <p>Nuestras tiendas</p> </li>
+                        <li class="item__contacts"> <p>Quiero ser franquiciado</p> </li>
+                        <li class="item__contacts"> <p>Anuncia aquí</p> </li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <form class="formulario">
+                        <span class="form__titulo">hable con nosotros</span>
+                        <div class="form__nombre">
+                            <label for="nombre">Nombre: </label>
+                            <input id="nombre" type="text">
+                        </div>
+                        <div class="form__mensaje">
+                            <label for="mensaje">Mensaje:</label>
+                            <input id="mensaje" type="text">
+                        </div>
+                        <button class="btn__form" type="submit" href="#">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodapie">
+        <section class="descripcion">
+            <p class="rodapie__descripcion"> &copy Desarrollado por Axel Ivan García</p>
+            <p class="rodapie__descripcion">2022</p>
+        </section>
+    </footer>
+    </body>
+</html>
