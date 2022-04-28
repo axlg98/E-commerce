@@ -16,7 +16,10 @@
 }
 
 .item__similar{
+    width: 30%;
     margin: 10px;
     padding: auto 10px;
     border: 1px solid #0000ff;
+    align-items: center;
+    justify-content: center;
 }
