@@ -1,0 +1,22 @@
+.similar__section{
+    border: 2px solid #00cc99;
+}
+
+.similar__titulo{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista__categoria-similar{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item__similar{
+    margin: 10px;
+    padding: auto 10px;
+    border: 1px solid #0000ff;
+}

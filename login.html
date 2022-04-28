@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="./css/contactos/contacts.css"/>
     <link rel="stylesheet" type="text/css" href="./css/contactos/formulario.css"/>
@@ -32,10 +33,10 @@
                 <form class="sectionLogin__form">
                     <span class="sectionLogin__titulo"> Iniciar sesión</span>
                 <div class="sectionLogin__nombre">
-                        <input type="text" placeholder="Nombre:" required>
+                        <input type="email" placeholder="Esciba su email aquí..." id="sectionLogin__form-email" required>
                     </div>
                     <div class="sectionLogin__contrasenha">
-                        <input type="password" placeholder="Contraseña:" required>
+                        <input type="password" placeholder="Contraseña:" id="sectionLogin__form-pass" required>
                     </div>
                     <button type="submit" class="sectionLogin_btn"> Login</button>
                 </form>
@@ -78,5 +79,6 @@
             <p class="rodapie__descripcion">2022</p>
         </section>
     </footer>
+    <script src="js/login.js"></script>
     </body>
 </html>

@@ -112,3 +112,25 @@ main{
     margin-left: 13px;
     background: #2A7AE4;
 }
+
+@media screen and (max-width:768px){
+    .sectionLogin__titulo{
+        left: auto;
+        text-align: center;
+    }
+    .sectionLogin__nombre input{
+        left: auto;
+        width: 300px;
+    }
+    .sectionLogin__contrasenha input{
+        left: auto;
+        width: 300px;
+    }
+    .sectionLogin__contrasenha{
+        padding: 0;
+    }
+    .sectionLogin_btn{
+        width: 70%;
+        margin-left: 0;
+    }
+}
