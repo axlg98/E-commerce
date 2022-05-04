@@ -23,3 +23,13 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 760px){
+    .item__similar{
+        width: auto;
+    }
+    .lista__categoria-similar{
+        flex-direction:inherit;
+        flex-wrap: wrap;
+    }
+}
