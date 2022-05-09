@@ -24,9 +24,12 @@
     justify-content: center;
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px){
     .item__similar{
         width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .lista__categoria-similar{
         flex-direction:inherit;

@@ -1,5 +1,5 @@
 .gallery-products{
-    background-color: teal;
+    border: 2px solid teal;
 }
 
 .categoria{
@@ -88,7 +88,12 @@
     display: inline-block;
 }
 
-@media (max-width: 700px){
+.lista__categoria-console{
+    flex-wrap: wrap;
+    margin: 0 3.5rem;
+}
+
+@media (max-width: 768px){
     .capa__contenedor{
         display: flex;
     }
@@ -97,6 +102,9 @@
     }
     .lista__categoria{
         overflow: scroll;
+    }
+    .item{
+        border: 1px solid #333333;
     }
     .categoria__img{
         height: 130px;
