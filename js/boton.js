@@ -1,5 +1,5 @@
 function btnConsole(){
-    location.href = "http://192.168.0.203/E-commerce/consola.html";
+    location.href = "/E-commerce/consola.html";
 }
 
 $(document).ready(function(){
