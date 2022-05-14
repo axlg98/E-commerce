@@ -8,12 +8,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="./css/rodapie/rodapie.css"/>
     <link rel="stylesheet" type="text/css" href="./css/productos-Galerias/productos-galeria.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/contactos/contacts.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/contactos/formulario.css"/>
+    <script src="./js/boton.js"></script>
     <title>Cónsolas</title>
 </head>
     <body>
         <header class="headerPrincipal">
             <div class="logo">
-                <img src="img/ecommerce.png" class="logo-header">
+                <a href="index.html"><img src="img/ecommerce.png" class="logo-header"></a>
             </div>
             <div class="box">
                 <div class="section-search">
@@ -31,31 +34,31 @@
                 <div class="categoria cat1">
                     <div class="capa capa__contenedor">
                     <ul class="lista__categoria lista__categoria-console">
-                        <li class="item">
+                        <li class="item item__console">
                             <img src="./img/consolas-videojuegos/joystick.png" alt="joystick" class="categoria__img">
                             <p class="item__titulo">Cónsolas</p>
                             <p class="item__precio">$ 65.00</p>
                             <a href="#"> <p>Ver producto</p></a>
                         </li>
-                        <li class="item">
+                        <li class="item item__console">
                             <img src="./img/consolas-videojuegos/play4.jpeg" alt=" PlayStation 4" class="categoria__img">
                             <p class="item__titulo">PlayStation 4</p>
                             <p class="item__precio">$ 90.00</p>
                             <a href="#"> <p>Ver producto</p></a>
                         </li>
-                        <li class="item">
+                        <li class="item item__console">
                             <img src="./img/consolas-videojuegos/wii.jpeg" alt="Nintendo wii" class="categoria__img">
                             <p class="item__titulo">Nintendo wii</p>
                             <p class="item__precio">$ 80.00</p>
                             <a href="#"> <p>Ver producto</p></a>
                         </li>
-                        <li class="item">
+                        <li class="item item__console">
                             <img src="./img/consolas-videojuegos/xbox.jpeg" alt="xbox" class="categoria__img">
                             <p class="item__titulo">Xbox series x</p>
                             <p class="item__precio">$ 76.00</p>
                             <a href="#"> <p>Ver producto</p></a>
                         </li>
-                        <li class="item">
+                        <li class="item item__console">
                             <img src="./img/consolas-videojuegos/switch.jpeg" alt="xbox" class="categoria__img">
                             <p class="item__titulo">Switch</p>
                             <p class="item__precio">$ 60.00</p>
@@ -72,6 +75,37 @@
                 </div>
             </div>
         </div>
+        <section class="contacts">
+            <div class="contacts__contenedor">
+                <div class="img__contacts">
+                    <img src="./img/footer-img/footer-Logo.png" alt="Logo de AluraGeek" class="contacts__img">
+                </div>
+                <div class="rodapie__contacts">
+                    <ul class="lista__contacts">
+                        <li class="item__contacts"> <p>quienes somos</p> </li>
+                        <li class="item__contacts"> <p>Politica de privacidad</p> </li>
+                        <li class="item__contacts"> <p>Programa de fidelidad</p> </li>
+                        <li class="item__contacts"> <p>Nuestras tiendas</p> </li>
+                        <li class="item__contacts"> <p>Quiero ser franquiciado</p> </li>
+                        <li class="item__contacts"> <p>Anuncia aquí</p> </li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <form class="formulario">
+                        <span class="form__titulo">hable con nosotros</span>
+                        <div class="form__nombre">
+                            <label for="nombre">Nombre: </label>
+                            <input id="nombre" type="text"  name="campoTexto" onblur="validar(campoTexto.value)">
+                        </div>
+                        <div class="form__mensaje">
+                            <label for="mensaje">Mensaje:</label>
+                            <input id="mensaje" type="text" name="campoMensaje" onblur="validar(campoMensaje)">
+                        </div>
+                        <button class="btn__form" type="submit" href="#">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
         <footer class="rodapie">
             <section class="descripcion">
                 <p class="rodapie__descripcion"> &copy Desarrollado por Axel Ivan García</p>

@@ -16,12 +16,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/boton.js"></script>
     <script src="./js/login.js"></script>
+    <script src="./js/formulario.js"></script>
     <title>E-commerce</title>
 </head>
     <body>
         <header class="headerPrincipal">
         <div class="logo">
-            <img src="img/ecommerce.png" class="logo-header">
+            <a href="index.html"><img src="img/ecommerce.png" class="logo-header"></a>
         </div>
         <div class="box">
             <div class="section-search">
@@ -211,13 +212,13 @@
                         <span class="form__titulo">hable con nosotros</span>
                         <div class="form__nombre">
                             <label for="nombre">Nombre: </label>
-                            <input id="nombre" type="text">
+                            <input id="nombre" type="text" name="campoTexto" onblur="validar(campoTexto.value)">
                         </div>
                         <div class="form__mensaje">
                             <label for="mensaje">Mensaje:</label>
-                            <input id="mensaje" type="text">
+                            <input id="mensaje" type="text" name="campoMensaje" onblur="validar(campoMensaje)">
                         </div>
-                        <button class="btn__form" type="submit" href="#">Enviar mensaje</button>
+                        <button class="btn__form" type="submit" ;  href="#">Enviar mensaje</button>
                     </form>
                 </div>
             </div>

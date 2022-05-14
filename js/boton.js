@@ -2,6 +2,10 @@ function btnConsole(){
     location.href = "/E-commerce/consola.html";
 }
 
+function btnLogin(){
+    location.href= "/E-commerce/login.html";
+}
+
 $(document).ready(function(){
     let anchocapa = $(".capa").width()
     let anchocontenedor = $(".cat1").width()

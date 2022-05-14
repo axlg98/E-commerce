@@ -2,12 +2,6 @@
 
 //import {controlUsuarioOk} from "./usuarios.js";
 
-function btnLogin(){
-    location.href= "/E-commerce/login.html";
-}
-
-var login = document.querySelector(".sectionLogin__form");
-
 class Usuario{
     email;
     pass;

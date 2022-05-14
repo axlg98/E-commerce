@@ -93,6 +93,10 @@
     margin: 0 3.5rem;
 }
 
+.item__console{
+    margin: 0 .5rem;
+}
+
 @media (max-width: 768px){
     .capa__contenedor{
         display: flex;
@@ -118,5 +122,11 @@
     }
     .lista__categoria a{
         margin: 10px 0;
+    }
+    .lista__categoria-console{
+        margin: auto;
+    }
+    .item__console{
+        border: none;
     }
 }
