@@ -2,12 +2,17 @@
 
 //import {controlUsuarioOk} from "./usuarios.js";
 
-class Usuario{
+ /*export class Usuario{
     email;
     pass;
-}
 
-let usuarioRegristrado = new Usuario()
+    constructor(email, pass) {
+        this.email = email;
+        this.pass = pass;
+    }
+} */
+
+// let usuarioRegristrado = new Usuario()
 /*
 login.addEventListener("submit",(event) =>{
     event.preventDefault();

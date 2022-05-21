@@ -62,11 +62,11 @@
                         <span class="form__titulo">hable con nosotros</span>
                         <div class="form__nombre">
                             <label for="nombre">Nombre: </label>
-                            <input id="nombre" type="text" name="campoTexto" onblur="validar(campoTexto.value)">
+                            <input id="nombre" type="text" name="campoTexto">
                         </div>
                         <div class="form__mensaje">
                             <label for="mensaje">Mensaje:</label>
-                            <input id="mensaje" type="text" name="campoMensaje" onblur="validar(campoMensaje)">
+                            <input id="mensaje" type="text" name="campoMensaje" onkeypress = "validar()">
                         </div>
                         <button class="btn__form" type="submit" href="#">Enviar mensaje</button>
                     </form>
